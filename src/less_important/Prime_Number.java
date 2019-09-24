@@ -33,6 +33,7 @@ public class Prime_Number {
 
     public static void main(String[] args) {
         int number = 5;
+      
         boolean b = isPring(number);
         if (b) {
             System.out.println(number + " Is Prime Number");

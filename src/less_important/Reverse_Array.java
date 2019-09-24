@@ -9,10 +9,12 @@ package less_important;
  *
  * @author Israt
  */
-public class Test {
+public class Reverse_Array {
     public static void main(String[] args) {
-        int i=30%20;
-        System.out.println("i = " + i);
-        
+        int arr[] ={20,60,41,100};
+        for (int i = arr.length-1; i>=0; i--) {
+            System.out.print(arr[i]+" ");
+        }
     }
+    
 }

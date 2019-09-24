@@ -14,6 +14,7 @@ import java.util.Arrays;
  */
 public class Anagram {
     //Two strings are called anagrams if they contain same set of characters but in different order
+    //For example, “abcd” and “dabc” are an Anagram of each other.
 
     public void isAnagram(String str1, String str2) {
         //  \\s - matches single whitespace character 

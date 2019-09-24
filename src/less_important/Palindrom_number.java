@@ -18,9 +18,14 @@ public class Palindrom_number {
         
         temp = n;
         while (n > 0) {
-            remainder = n % 10;  //getting remainder  
+            //getting remainder  if we do  % (modulus) any number with 10 it gives remainder
+            //if we do  % (modulus) any smaller number  with 10 it gives output smaller number like 5%10 =5
+            remainder = n % 10;  
+            System.out.println("remainder = " + remainder);
             sum = (sum * 10) + remainder;
-            n = n / 10;
+            n = n / 10; 
+            System.out.println("n = " + n);
+            System.out.println();
         }
         if (temp == sum) {
             System.out.println("palindrome number ");

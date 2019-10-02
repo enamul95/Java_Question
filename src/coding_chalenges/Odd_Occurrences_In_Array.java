@@ -14,8 +14,11 @@ import java.util.Arrays;
 public class Odd_Occurrences_In_Array {
     public int solution(int[] A) {
         
-        Arrays.sort(A);      
-      
+        Arrays.sort(A); 
+        for (int k = 0; k < A.length; k++) {
+            System.out.print(" " + A[k]);
+        }
+        System.out.println();
         int i, j, count = 0;
         for (i = 0; i < A.length; i++) {
             System.out.println("i = " + i);            
